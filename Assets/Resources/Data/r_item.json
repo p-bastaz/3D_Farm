@@ -1,0 +1,91 @@
+﻿{
+  "data": [
+    {
+      "item_id": 10001,
+      "item_type": 1,
+      "item_name": "골드",
+      "item_price": 0
+    },
+
+    {
+      "item_id": 10002,
+      "item_type": 1,
+      "item_name": "사료",
+      "item_price": 0
+    },
+
+    {
+      "item_id": 20001,
+      "item_type": 2,
+      "item_name": "무 씨앗",
+      "item_price": 0
+    },
+    {
+      "item_id": 20002,
+      "item_type": 2,
+      "item_name": "당근 씨앗",
+      "item_price": 0
+    },
+    {
+      "item_id": 20003,
+      "item_type": 2,
+      "item_name": "옥수수 씨앗",
+      "item_price": 0
+    },
+    {
+      "item_id": 20004,
+      "item_type": 2,
+      "item_name": "토마토 씨앗",
+      "item_price": 0
+    },
+    {
+      "item_id": 20005,
+      "item_type": 2,
+      "item_name": "호박 씨앗",
+      "item_price": 0
+    },
+    {
+      "item_id": 31001,
+      "item_type": 3,
+      "item_name": "계란",
+      "item_price": 50
+    },
+    {
+      "item_id": 30001,
+      "item_type": 3,
+      "item_name": "무",
+      "item_price": 60
+    },
+    {
+      "item_id": 30002,
+      "item_type": 3,
+      "item_name": "당근",
+      "item_price": 80
+    },
+    {
+      "item_id": 30003,
+      "item_type": 3,
+      "item_name": "옥수수",
+      "item_price": 120
+    },
+    {
+      "item_id": 30004,
+      "item_type": 3,
+      "item_name": "토마토",
+      "item_price": 100
+    },
+    {
+      "item_id": 30005,
+      "item_type": 3,
+      "item_name": "호박",
+      "item_price": 200
+    },
+    {
+      "item_id": 50001,
+      "item_type": 5,
+      "item_name": "닭",
+      "item_price": 500
+    }
+
+  ]
+}

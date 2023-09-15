@@ -1,0 +1,53 @@
+﻿{
+  "data": [
+    {
+      "shop_id": 11001,
+      "shop_category": 1,
+      "shop_productName": "무 씨앗",
+      "shop_productItem": 20001,
+      "shop_price": 25
+    },
+    {
+      "shop_id": 11002,
+      "shop_category": 1,
+      "shop_productName": "당근 씨앗",
+      "shop_productItem": 20002,
+      "shop_price": 25
+    },
+    {
+      "shop_id": 11003,
+      "shop_category": 1,
+      "shop_productName": "옥수수 씨앗",
+      "shop_productItem": 20003,
+      "shop_price": 100
+    },
+    {
+      "shop_id": 11004,
+      "shop_category": 1,
+      "shop_productName": "토마토 씨앗",
+      "shop_productItem": 20004,
+      "shop_price": 100
+    },
+    {
+      "shop_id": 11004,
+      "shop_category": 1,
+      "shop_productName": "호박 씨앗",
+      "shop_productItem": 20005,
+      "shop_price": 50
+    },
+    {
+      "shop_id": 12001,
+      "shop_category": 2,
+      "shop_productName": "닭",
+      "shop_productItem": 50001,
+      "shop_price": 1000
+    },
+    {
+      "shop_id": 12002,
+      "shop_category": 2,
+      "shop_productName": "사료",
+      "shop_productItem": 10002,
+      "shop_price": 10
+    }
+  ]
+}

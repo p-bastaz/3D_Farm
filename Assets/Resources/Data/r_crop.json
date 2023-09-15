@@ -1,0 +1,39 @@
+﻿{
+  "data": [
+    {
+      "crop_id": 30001,
+      "crop_name": "무",
+      "crop_growth": 3,
+      "crop_amount" : 1,
+      "crop_regrow" : false
+    },
+    {
+      "crop_id": 30002,
+      "crop_name": "당근",
+      "crop_growth": 4,
+      "crop_amount": 1,
+      "crop_regrow": false
+    },
+    {
+      "crop_id": 30003,
+      "crop_name": "옥수수",
+      "crop_growth": 6,
+      "crop_amount": 3,
+      "crop_regrow": true
+    },
+    {
+      "crop_id": 30004,
+      "crop_name": "토마토",
+      "crop_growth": 5,
+      "crop_amount": 3,
+      "crop_regrow": true
+    },
+    {
+      "crop_id": 30005,
+      "crop_name": "호박",
+      "crop_growth": 8,
+      "crop_amount": 1,
+      "crop_regrow": false
+    }
+  ]
+}
