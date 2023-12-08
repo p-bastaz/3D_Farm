@@ -7,6 +7,9 @@ public class PlayerCtr : MonoBehaviour
     //[SerializeField] private FarmManager farmController;
     [SerializeField] private Animator anim;
 
+    [SerializeField] private Transform rayPoint;
+
+
     public FarmManager farmManager;
     public HouseManager houseManager;
     public TownManager townManager;
@@ -50,6 +53,8 @@ public class PlayerCtr : MonoBehaviour
         //    transform.Rotate(0, 0.5f * Input.GetAxis("Horizontal"), 0);
         //}
 
+        
+
         if(!inputLock)
         {
             hAxis = Input.GetAxisRaw("Horizontal");
@@ -57,12 +62,32 @@ public class PlayerCtr : MonoBehaviour
 
             moveVec = new Vector3(hAxis, 0, vAxis).normalized;
 
-            transform.position += moveVec * speed * Time.deltaTime;
-
-            anim.SetBool("IsWalk", moveVec != Vector3.zero);
-
             transform.LookAt(transform.position + moveVec);
+
+            if (!CheckObstacle(moveVec))
+            {
+                transform.position += moveVec * speed * Time.deltaTime;
+                anim.SetBool("IsWalk", moveVec != Vector3.zero);
+            }
+            else
+                anim.SetBool("IsWalk", false);
+            
         }
+    }
+
+    bool CheckObstacle(Vector3 _moveVec)
+    {
+        float distance = 0.5f;
+
+        Debug.DrawRay(rayPoint.position, rayPoint.forward * distance, Color.red);
+
+        if (Physics.Raycast(rayPoint.position, rayPoint.forward, out RaycastHit hit, distance))
+        {
+            if (hit.collider != null && hit.collider.tag != "Area")
+                return true;
+        }
+
+        return false;
     }
 
 
@@ -97,6 +122,7 @@ public class PlayerCtr : MonoBehaviour
             }
         }
     }
+
 
     private void OnTriggerStay(Collider collider)
     {
